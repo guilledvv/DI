@@ -72,3 +72,65 @@ esto es una seccion de ejemplo para enlace interno
 
 ## Imágenes
 ![Gatetes |](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNrF1Xji6sDRPdJDIEEQu4T5IwfAYIEcJsxg&s)
+
+## Mencion
+@guilledvv
+
+
+##
+-Enlazo una nota al pie [^1]
+-Enlazo otra nota al pie [^nota]
+##
+-[^1] Esta es la nota al pie 
+-[^nota] Esto es otra nota al pie
+##
+
+|  Alineado Iquierda | Alineado Medio | Alineado Derecha | 
+|:---|:---:|----:|
+| Dato 1 | Dato 2 | Dato 3 |
+
+##
+<details>
+  <summary>Este es el resumen de la seccion de desplegable</summary>
+  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+</details>
+
+##
+
+<details>
+  <summary>
+    ¿Cual  sintaxis Phyton para imprimir por pantalla
+  </summary>
+
+  ##
+  
+  ```python
+  print('texto')
+  ```
+</details>
+
+```mermaid
+    graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D
+```
+##
+```mermaid
+  graph TD;
+A-->B;
+B-->C;
+C-->D;
+D-->E;
+D-->F;
+D-->G;
+D-->H;
+H-->I;
+G-->J;
+E-->Y;
+F-->Z;
+```
+##
+
