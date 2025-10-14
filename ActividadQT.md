@@ -30,6 +30,9 @@ Con esta guía, cualquier persona podrá repetir los pasos desde cero.
 
 ##  Creación y activación del entorno virtual
 
+<img width="695" height="216" alt="image" src="https://github.com/user-attachments/assets/0a95d44c-9915-4d92-bd89-f96e5af61623" />
+
+
 Primero creé mi entorno virtual.
 
 ### En Windows:
@@ -71,8 +74,11 @@ proyecto-hola-mundo/
 │  └─ ventana.py       # clase Ventana
 ├─ .gitignore
 ├─ requirements.txt
-└─ README.md
+└─ READ
+ME.md
 ```
+<img width="250" height="413" alt="qt" src="https://github.com/user-attachments/assets/c5a602eb-9456-49e5-8ec6-50d0251c2175" />
+
 Separé los archivos porque ventana.py tiene la clase de la interfaz y main.py solo inicia la aplicación.
 Esto ayuda a mantener el código ordenado y fácil de ampliar.
 
@@ -101,6 +107,9 @@ class Ventana(QWidget):
         # Asigno el layout a la ventana
         self.setLayout(layout)
 ```
+<img width="854" height="700" alt="qt1" src="https://github.com/user-attachments/assets/7d18adcf-008c-44fc-a004-a8696de6c930" />
+
+
  Explicación:
 En este archivo defino la clase Ventana, que hereda de QWidget.
 Le pongo un título, un tamaño, y creo una etiqueta centrada con el texto “¡Hola, mundo!”.
@@ -122,6 +131,10 @@ ventana.show()
 # Iniciar el bucle de eventos
 app.exec()
 ```
+
+<img width="626" height="494" alt="qt2" src="https://github.com/user-attachments/assets/a11aca4f-640d-4c5d-815b-20b356fcfa09" />
+
+
  Explicación:
 Este archivo es el punto de entrada del programa.
 Primero creo una aplicación con QApplication, luego una ventana a partir de la clase Ventana, la muestro con .show(),
